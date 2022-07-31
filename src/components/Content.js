@@ -11,18 +11,10 @@ import {
   CardActions,
   Box,
 } from "@mui/material";
-import { makeStyles } from "@mui/styles";
 import DeleteIcon from "@mui/icons-material/Delete";
 import BorderColorIcon from "@mui/icons-material/BorderColor";
 
-const useStyles = makeStyles({
-  btn: {
-    width: "100%",
-  },
-});
-
 const Content = () => {
-  const classes = useStyles();
   return (
     <Box>
       <Grid container sx={{ alignItems: "center", marginBottom: 2 }}>
@@ -81,8 +73,8 @@ const Content = () => {
           }}
         >
           <Button
-            className={classes.btn}
             sx={{
+              width: "100%",
               marginLeft: 0,
               borderRadius: 0,
               color: "rgba(0, 0, 0, .6)",
@@ -93,8 +85,8 @@ const Content = () => {
             Delete
           </Button>
           <Button
-            className={classes.btn}
             sx={{
+              width: "100%",
               marginLeft: 0,
               borderRadius: 0,
               color: "rgba(0, 0, 0, .6)",
@@ -140,8 +132,8 @@ const Content = () => {
           }}
         >
           <Button
-            className={classes.btn}
             sx={{
+              width: "100%",
               marginLeft: 0,
               borderRadius: 0,
               color: "rgba(0, 0, 0, .6)",
@@ -152,8 +144,8 @@ const Content = () => {
             Delete
           </Button>
           <Button
-            className={classes.btn}
             sx={{
+              width: "100%",
               marginLeft: 0,
               borderRadius: 0,
               color: "rgba(0, 0, 0, .6)",
@@ -199,8 +191,8 @@ const Content = () => {
           }}
         >
           <Button
-            className={classes.btn}
             sx={{
+              width: "100%",
               marginLeft: 0,
               borderRadius: 0,
               color: "rgba(0, 0, 0, .6)",
@@ -211,8 +203,8 @@ const Content = () => {
             Delete
           </Button>
           <Button
-            className={classes.btn}
             sx={{
+              width: "100%",
               marginLeft: 0,
               borderRadius: 0,
               color: "rgba(0, 0, 0, .6)",

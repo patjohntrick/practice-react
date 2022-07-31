@@ -10,19 +10,7 @@ import {
 import Content from "./components/Content";
 import { SiReact } from "react-icons/si";
 
-// const useStyles = makeStyles({
-//   content: {
-//     display: "flex",
-//     gap: 2,
-//   },
-//   btn: {
-//     backgroundColor: "#ff8849",
-//     color: "red",
-//   },
-// });
-
 function App() {
-  // const classes = useStyles();
   return (
     <React.Fragment>
       <Box sx={{ backgroundColor: "#292929", padding: "15px 0" }}>
