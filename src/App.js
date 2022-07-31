@@ -61,12 +61,27 @@ function App() {
                   backgroundColor: "#22a5e2",
                   color: "white",
                   borderRadius: 1,
+                  cursor: "pointer",
                 }}
               >
                 Heroes
               </ListItem>
-              <ListItem>Villains</ListItem>
-              <ListItem>About</ListItem>
+              <ListItem
+                sx={{
+                  borderRadius: 1,
+                  cursor: "pointer",
+                }}
+              >
+                Villains
+              </ListItem>
+              <ListItem
+                sx={{
+                  borderRadius: 1,
+                  cursor: "pointer",
+                }}
+              >
+                About
+              </ListItem>
             </List>
           </Grid>
           <Grid item sm={9}>
